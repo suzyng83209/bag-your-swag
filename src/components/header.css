@@ -1,0 +1,28 @@
+.header-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1132px;
+  padding: 0px 1.0875rem;
+  margin: 0.5rem auto 1rem;
+}
+
+.header-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-options:last-child {
+  padding-left: 6px;
+}
+
+.header-options a {
+  height: fit-content;
+  color: #d0021b;
+  text-decoration: none;
+  margin: 16px;
+}
+.header-options a:hover {
+  text-decoration: underline;
+}
